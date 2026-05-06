@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/pay/:path*",
+      "destination": "https://buggypayment-production.up.railway.app/:path*"
+    },
+    {
+      "source": "/pay",
+      "destination": "https://buggypayment-production.up.railway.app"
+    }
+  ]
+}
