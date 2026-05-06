@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/pay/:path*",
-      "destination": "https://buggypayment-production.up.railway.app/pay/:path*"
+      "source": "/(.*)",
+      "destination": "https://buggypayment-production.up.railway.app/$1"
     }
   ]
 }
